@@ -57,7 +57,7 @@ function clearCart() {
 
 // Initial render
 renderProducts();
-renderCart();
+//renderCart();
 document.addEventListener("DOMContentLoaded",function(){
 let cartItemsSessionStorage =JSON.parse(window.sessionStorage.getItem("cart"));
 console.log(cartItems,"cart items");
